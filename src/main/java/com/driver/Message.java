@@ -7,6 +7,15 @@ public class Message {
     private String content;
     private Date timestamp;
 
+    public Message(){
+
+    }
+
+    public Message(int id,String content){
+        this.id = id;
+        this.content = content;
+    }
+
     public int getId() {
         return id;
     }
